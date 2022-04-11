@@ -1,0 +1,34 @@
+body {
+	height: 100vh;
+	background: linear-gradient(to bottom, aliceblue, lightblue);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+.container {
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.caixa {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	font-size: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.caixa1, .caixa2, .caixa3 {
+	display: flex;
+	background-color: #fff;
+}

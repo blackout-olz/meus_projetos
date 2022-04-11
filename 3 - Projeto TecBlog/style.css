@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+	background: #FCF8FC;
+}
+
+/* Estilização do Menu */
+
+div#menu {
+	background: #FFC300;
+	text-align: center;
+	height: 130px;
+	padding-top: 35px;
+}
+
+div#menu h1 {
+	font-size: 40px;
+}
+
+span.tec {
+	color: #534846;
+}
+
+span.blog {
+	color: white;
+	font-weight: bold;
+}
+
+div#menu ul {
+	margin-top: 30px;
+}
+
+div#menu li {
+	display: inline;
+	list-style: none;
+}
+
+div#menu a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 10px 15px;
+}
+
+div#menu a:hover {
+	background: white;
+	color: #FFC300;
+}
+
+/* Estilização DIV principal */
+
+div#principal {
+	margin: 50px auto;
+	width: 900px;
+	position: relative;
+}
+
+#principal div.content {
+	width: 580px;
+	background: #FCF8FC;
+}
+
+#principal div.aside {
+	background: #FCF8FC;
+	width: 300px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+/* Estilização DIV asideposts */
+
+div.aside h1 {
+	color: #534846;
+	background: #DEDADE;
+	font-size: 24px;
+	text-align: left;
+	padding: 7px 0px;
+	padding-left: 5px;
+}
+
+div.asideposts {
+	background: white;
+	padding: 15px;
+}
+
+div.asideposts p {
+	font-size: 14px;
+	margin: 5px;
+}
+
+div.asideposts a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #FFC300;
+	margin: 5px;
+}
+
+div.asidemenu {
+	margin-top: 30px;
+	background: white;
+	padding: 15px;
+}
+
+div.asidemenu ul {
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 0;
+}
+
+div.asidemenu li {
+	list-style: none;
+}
+
+div.asidemenu a {
+	font-size: 17px;
+	color: #FFC300;
+	text-decoration: none;
+}
+
+/* Estilização DIV content */
+
+div.post1 {
+	background: white;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+div.content img {
+	width: 550px;
+	margin: 20px auto;
+}
+
+div.content h1 {
+	color: #FFC300;
+}
+
+div.content p {
+	font-size: 16px;
+}
+
+div.content a {
+	font-size: 17px;
+	color: #FFC300;
+	text-decoration: none;
+}
+
+/* Estilização DIV footer */
+
+div#footer {
+	background: #DEDADE;
+	padding: 30px;
+	text-align: center;
+}

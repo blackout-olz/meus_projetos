@@ -1,0 +1,50 @@
+body {
+	background: url(imagens/fundo.png);
+}
+
+div#navbar {
+	background-color: #7F894D;
+	padding: 15px;
+	width: 870px;
+}
+
+div#navbar a {
+	text-decoration: none;
+	color: #FCFFED;
+}
+
+div#navbar li {
+	list-style: none;
+	display: inline-block;
+	font-weight: bolder;
+}
+
+div#content {
+	background-color: #FCFFED;
+	padding: 15px;
+	width: 870px;
+}
+
+div#content img{
+	border: outset 10px lightgrey;
+}
+
+div#content h1 {
+	font-family: arial;
+	color: #7F894D;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+div#content p {
+	font-family: arial;
+	font-size: 16px;
+	text-indent: 16px;
+}
+
+div#footer {
+	width: 900px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}

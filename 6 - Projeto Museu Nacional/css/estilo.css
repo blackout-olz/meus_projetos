@@ -1,0 +1,198 @@
+/* Estrutura dá página */
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a {
+	color: #af670a;
+}
+
+body {
+	background: #eee url(../img/fundo.png) repeat-x;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+/* Cabeçalho */
+
+header {
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo a h1 {
+	width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	background: url(../img/logo.png);
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	padding: 0 10px;
+}
+
+nav ul li a {
+	color: #af670a;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+nav ul li a:hover {
+	color: #227115;
+	border-bottom: 1px solid #eee	;
+}
+
+/* Principal */
+
+#principal {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+#conteudo {
+	width: 710px;
+}
+
+aside {
+	width: 350px;
+	background: #EDE5DF;
+}
+
+
+/* Lateral */
+ 
+h4 {
+	color: #7F5F3D;
+	margin-top: 15px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+#visita {
+	margin-top: 15px;
+	background: #CDC7B5;
+	padding: 15px;
+}
+
+fieldset {
+	border: none;
+	padding: 5px;
+}
+
+input {
+	border: none;
+}
+
+input#data {
+	width: 123.5px;
+}
+
+input#qtd {
+	width: 40px;
+}
+
+input#verificar {
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	background: #9D9175;
+	border: none;
+	font-size: 0.9em;
+	text-align: center;
+	margin-left: 9px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+section#galeria {
+	display: flex;
+	padding: 15px;
+	flex-direction: column;
+}
+
+section#galeria div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section#galeria h4 {
+	margin-bottom: 25px;
+}
+
+section#galeria a{
+	background: url(../img/fundo-foto.png) no-repeat;
+	padding: 18px 15px 15px 15px;
+	margin-left: 23px;
+}
+
+/* Conteúdo */
+
+section#conteudo {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+section#conteudo article {
+	width: 310px;
+	margin-bottom: 20px;
+}
+
+section#conteudo article#exposicoes ul li {
+	list-style-type: disc;
+	margin-left: 45px;
+}
+
+article#exposicoes ul li a {
+	color: #af670a;
+}
+
+article#exposicoes ul li a:hover {
+	text-decoration: underline;
+}
+
+article#historia h4 {
+	margin-bottom: 15px;
+}
+
+article#historia p {
+	margin-bottom: 15px;
+}
+
+/* Rodapé */
+
+footer {
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+	padding: 15px;
+	text-align: center;
+}
+
+footer p#rodape-nav {
+	padding-bottom: 10px;
+}
+
+footer p#rodape-nav a {
+	padding: 2px 10px;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+}
+
+

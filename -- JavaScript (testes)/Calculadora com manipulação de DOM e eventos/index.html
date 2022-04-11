@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<title>javascript</title>
+
+		<style type="text/css">
+			input {
+				width: 80px;
+				padding: 2px 10px;
+			}
+
+			button {
+				width: 50px;
+				text-align: center;
+				background: black;
+				color: #fff;
+				font-size: 20px;
+			}
+
+			.button1 {
+				margin-left: 50px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1>Calculadora com manipulação de DOM</h1>
+
+		<br>
+		<hr>
+		<br>
+
+		<label>Número 1: </label><input type="text" id="num1">
+		<label>Número 2: </label><input type="text" id="num2"> <br> <br>
+
+		<button class="button1" onclick="somar()">+</button>
+		<button onclick="subtrair()">-</button>
+		<button onclick="multiplicar()">*</button>
+		<button onclick="dividir()">/</button> <br> <br>
+
+		<label>Resultado: </label><input type="text" id="resultado" disabled="disabled">		
+		
+		<script src="js.js"></script>
+
+	</body>
+
+</html>
